@@ -28,7 +28,6 @@
   ],
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch",
     "test": "vitest run",
     "coverage": "vitest run --coverage",
     "typecheck": "tsc --noEmit",
