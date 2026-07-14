@@ -2,13 +2,13 @@
   "name": "@borapesa/docs",
   "version": "0.1.0",
   "private": true,
-  "description": "Bora Pesa documentation site — powered by Fumadocs",
+  "description": "Bora Pesa documentation site \u2014 powered by Fumadocs",
   "scripts": {
-    "dev": "pnpm predev && next dev",
+    "dev": "node api.js && pnpm predev && next dev",
     "predev": "node scripts/generate-llms.mjs",
     "build": "next build",
     "postbuild": "node scripts/generate-llms.mjs",
-    "start": "next start",
+    "start": "node api.js && next start",
     "docs:api": "typedoc && node scripts/add-frontmatter.mjs"
   },
   "keywords": [],

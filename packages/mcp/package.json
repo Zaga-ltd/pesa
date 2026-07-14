@@ -26,7 +26,7 @@
   "scripts": {
     "sync-content": "node scripts/sync-content.mjs",
     "build": "node scripts/sync-content.mjs && tsc --noEmit && node scripts/bundle.mjs",
-    "dev": "tsc --noEmit --watch",
+    "dev": "node api.js && tsc --noEmit --watch",
     "test": "node scripts/sync-content.mjs && node scripts/bundle.mjs && vitest run",
     "coverage": "node scripts/sync-content.mjs && node scripts/bundle.mjs && vitest run --coverage",
     "typecheck": "tsc --noEmit",

@@ -1,7 +1,7 @@
 {
   "name": "@borapesa/pesa",
   "version": "0.6.0",
-  "description": "Core — types, factory, event store, plugin system, and BogusProvider",
+  "description": "Core \u2014 types, factory, event store, plugin system, and BogusProvider",
   "license": "MIT",
   "author": "Bora Pesa contributors",
   "repository": {
@@ -36,7 +36,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch",
+    "dev": "node api.js && tsc --watch",
     "test": "vitest run",
     "coverage": "vitest run --coverage",
     "typecheck": "tsc --noEmit",

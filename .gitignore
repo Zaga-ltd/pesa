@@ -4,8 +4,6 @@ dist/
 .turbo/
 *.db
 *.db-journal
-.env
-.env.local
 .DS_Store
 .idea/
 coverage/
@@ -16,3 +14,4 @@ docs/public/llms.txt
 docs/public/llms-full.txt
 docs/public/sitemap.xml
 docs/next-env.d.ts
+config.bat

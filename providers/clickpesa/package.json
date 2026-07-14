@@ -28,7 +28,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch",
+    "dev": "node api.js && tsc --watch",
     "test": "vitest run",
     "coverage": "vitest run --coverage",
     "typecheck": "tsc --noEmit",

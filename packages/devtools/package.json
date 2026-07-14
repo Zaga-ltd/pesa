@@ -1,7 +1,7 @@
 {
   "name": "@borapesa/devtools",
   "version": "0.0.2",
-  "description": "Developer tools for Bora Pesa — cloudflared tunnel, webhook dev utilities",
+  "description": "Developer tools for Bora Pesa \u2014 cloudflared tunnel, webhook dev utilities",
   "license": "MIT",
   "author": "Bora Pesa contributors",
   "repository": {
@@ -28,7 +28,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch",
+    "dev": "node api.js && tsc --watch",
     "test": "vitest run",
     "coverage": "vitest run --coverage",
     "typecheck": "tsc --noEmit",
