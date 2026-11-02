@@ -2,7 +2,6 @@
   "name": "@borapesa/docs",
   "version": "0.1.0",
   "private": true,
-  "description": "Bora Pesa documentation site \u2014 powered by Fumadocs",
   "scripts": {
     "predev": "node scripts/generate-llms.mjs",
     "build": "next build",

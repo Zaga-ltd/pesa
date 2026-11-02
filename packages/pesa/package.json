@@ -1,7 +1,6 @@
 {
   "name": "@borapesa/pesa",
   "version": "0.6.0",
-  "description": "Core \u2014 types, factory, event store, plugin system, and BogusProvider",
   "license": "MIT",
   "author": "Bora Pesa contributors",
   "repository": {
